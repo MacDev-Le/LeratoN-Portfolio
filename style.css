@@ -146,16 +146,16 @@ nav {
 
 img {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     border-radius: 50%;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
 }
 
 .typed-out {
     overflow: hidden;
     border-right: .15em solid orange;
-    font-size: 1.6rem;
+    font-size: 22.5px;
     width: 0;
     white-space: nowrap;
     animation: typing 7s forwards;
@@ -166,7 +166,7 @@ img {
 }
 
 @keyframes typing {
-    from { width: 0;}
-    to { width: 100%;}
+    from { width: 10%;}
+    to { width: 70%;}
 }
 
