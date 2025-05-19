@@ -150,3 +150,21 @@ img {
     padding: 5px;
     text-align: center;
 }
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    font-size: 1.6rem;
+    width: 0;
+    white-space: nowrap;
+    animation: typing 3s forwards;
+}
+
+.container {
+    display: flex;
+}
+
+@keyframes typing {
+    from { width: 0;}
+    to { width: 100%;}
+}
