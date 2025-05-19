@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: darkgoldenrod;
+    color: #1b1818;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: beige;
+    color: darkgoldenrod;
+    padding: 20px;
+    text-align: center;   
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    background: bisque;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1.5);
+}
+
+h2{
+    color: #1b1818;
+}
+
+.about {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: beige;
+    color: darkgoldenrod;
+}
