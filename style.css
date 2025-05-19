@@ -8,7 +8,8 @@ body {
 
 header {
     background: beige;
-    color: darkgoldenrod;
+    background-color: darkgoldenrod;
+    color: beige;
     padding: 20px;
     text-align: left;   
 }
@@ -168,3 +169,4 @@ img {
     from { width: 0;}
     to { width: 100%;}
 }
+
