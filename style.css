@@ -7,18 +7,22 @@ body {
 }
 
 header {
-    background: beige;
-    background-color: darkgoldenrod;
-    color: beige;
+    background: rgb(87, 176, 232);
+    color: black;
     padding: 20px;
-    text-align: left;   
+    text-align: left;
+
+}
+
+header h1 {
+    gap: 50%;
 }
 
 section {
     padding: 20px;
     margin: 10px auto;
-    max-width: 600px;
-    background: bisque;
+    max-width: 50%;
+    background: rgb(150, 230, 242);
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,1.5);
 }
@@ -38,8 +42,7 @@ h2{
 footer {
     text-align: center;
     padding: 10px;
-    background: beige;
-    color: darkgoldenrod;
+    background: rgb(61, 64, 141);
 }
 
 .sociallinks {
@@ -59,7 +62,7 @@ footer {
     color: black;
 }
 
-footer > p{
+footer > p {
     color: black;
     font-weight: bold;
     font-size: 13px;
@@ -74,8 +77,8 @@ footer > p{
 }
 
 .project-card {
-    background-color: antiquewhite;
-    border-left: 4px solid darkgoldenrod;
+    background-color: rgb(87, 176, 232);
+    border-left: 4px solid blue;
     padding: 15px;
     border-radius: 8px;
     width: 250px;
@@ -89,7 +92,7 @@ footer > p{
 
 .project-card > h3 {
     margin-top: 0;
-    color: darkgoldenrod;
+    color: azure;
 }
 
 .project-card > p {
@@ -113,7 +116,7 @@ footer > p{
 }
 
 nav {
-    background-color: bisque;
+    background-color: rgb(61, 64, 141);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -133,7 +136,7 @@ nav {
     display: inline-block;
     padding: 6px 12px;
     color: black;
-    background-color: darkgoldenrod;
+    background-color:  rgb(87, 176, 232);
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
@@ -141,24 +144,24 @@ nav {
 }
 
 .navbar > li > a:hover {
-    background-color: bisque;
+    background-color: azure;
 }
 
 img {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     border-radius: 50%;
     padding: 20px;
-    text-align: center;
 }
 
 .typed-out {
     overflow: hidden;
-    border-right: .15em solid orange;
-    font-size: 22.5px;
-    width: 0;
+    font-size: 10px;
+    width: 50%;
     white-space: nowrap;
     animation: typing 7s forwards;
+    border-right: .20em solid black;
+    background-repeat: repeat-x;
 }
 
 .container {
@@ -166,7 +169,7 @@ img {
 }
 
 @keyframes typing {
-    from { width: 10%;}
-    to { width: 70%;}
+    from { width: 0%;}
+    to { width: 40%;}
 }
 
