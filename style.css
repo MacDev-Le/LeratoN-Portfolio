@@ -1,17 +1,17 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgb(87, 176, 232);
-    color: #1b1818;
     margin: 0;
     padding: 0;
 }
 
+
+
 header {
-    background: rgb(87, 176, 232);
-    color: black;
+    background: 0;
+    color: rgb(5, 5, 5);
     padding: 20px;
     text-align: left;
-
 }
 
 header h1 {
@@ -22,13 +22,13 @@ section {
     padding: 20px;
     margin: 10px auto;
     max-width: 50%;
-    background: rgb(150, 230, 242);
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,1.5);
+    background: rgb(126, 145, 156);
 }
 
 h2{
-    color: #1b1818;
+    color: azure;
 }
 
 .about {
@@ -42,7 +42,7 @@ h2{
 footer {
     text-align: center;
     padding: 10px;
-    background: rgb(61, 64, 141);
+    background:  #8394a7;
 }
 
 .sociallinks {
@@ -51,7 +51,7 @@ footer {
 
 .sociallinks > a{
     margin: 0 10px;
-    color: #007bff;
+    color: #107bec;
     text-decoration: none;
     font-weight: bold;
 }
@@ -77,8 +77,8 @@ footer > p {
 }
 
 .project-card {
-    background-color: rgb(87, 176, 232);
-    border-left: 4px solid blue;
+    background-color: rgb(67, 100, 121);
+    border-left: 4px solid rgb(88, 88, 139);
     padding: 15px;
     border-radius: 8px;
     width: 250px;
@@ -103,7 +103,7 @@ footer > p {
 .project-card > a {
     display: inline-block;
     padding: 8px 15px;
-    background-color: #007bff;
+    background-color: #8394a7;
     border: none;
     border-radius: 6px;
     text-decoration: none;
@@ -116,7 +116,7 @@ footer > p {
 }
 
 nav {
-    background-color: rgb(61, 64, 141);
+    background-color:  #8394a7;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -136,7 +136,7 @@ nav {
     display: inline-block;
     padding: 6px 12px;
     color: black;
-    background-color:  rgb(87, 176, 232);
+    background-color:  rgb(64, 107, 134);
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
