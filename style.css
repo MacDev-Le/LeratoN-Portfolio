@@ -10,11 +10,16 @@ header {
     background: 0;
     color: rgb(5, 5, 5);
     padding: 20px;
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;   /* allows wrapping on small screens */
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* spacing between text and image */
 }
 
 header h1 {
-    gap: 50%;
+    font-size: clamp(16px, 2vw, 28px); /* responsive font size */
+    margin: 5px 0;
 }
 
 section {
@@ -146,21 +151,24 @@ nav {
     background-color: azure;
 }
 
-img {
-    display: flex;
-    justify-content: left;
+.image-container {
+    flex-shrink: 0; /* don't let image shrink or move */
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    padding: 20px;
+    object-fit: cover;
 }
 
 .typed-out {
     overflow: hidden;
-    font-size: 10px;
-    width: 50%;
+    font-size: 1rem;
+    max-width: 100%;
     white-space: nowrap;
     animation: typing 7s forwards;
     border-right: .20em solid black;
-    background-repeat: repeat-x;
 }
 
 .container {
@@ -172,3 +180,30 @@ img {
     to { width: 40%;}
 }
 
+/* ---------- Responsive Fix ---------- */
+@media (max-width: 768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .typed-out {
+        white-space: normal;
+        border-right: none;
+        animation: fadeIn 1.5s ease-in forwards;
+    }
+
+    .typed-out.line2 {
+        animation-delay: 0.5s;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0 }
+        to { opacity: 1 }
+    }
+
+    .image-container img {
+        width: 150px;
+        height: 150px;
+    }
+}
